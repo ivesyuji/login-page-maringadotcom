@@ -1,0 +1,33 @@
+<main>
+    <section class="form-section">
+        <img src="images/logo.svg" alt="logo"/>
+        <ng-content></ng-content>
+
+    <div class="btn-service-wrapper">
+        <button>
+            <img src="images/google.svg" alt="Google">
+        </button>
+        <button>
+            <img src="images/facebook.svg" alt="Facebook">
+        </button>
+        <button>
+            <img src="images/linkedin.svg" alt="LinkedIn">
+        </button>
+            </div>
+
+    <div class = "btn-wrapper">
+        <button class="btn-primary"(click)="submit()">{{primaryBtnText}}</button>
+        <div class="divider">
+            <div></div>
+            <span>ou</span>
+            <div></div>
+        </div>
+        <button class="btn-secondary"(click)="navigate()">{{secondaryBtnText}}</button>
+    </div>
+
+    </section>
+
+    <section class="main-section">
+        <img src="/images\bg.jpg" alt="background"/>
+    </section>
+</main>

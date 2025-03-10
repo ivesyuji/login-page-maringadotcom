@@ -1,0 +1,27 @@
+<app-default-login-layout
+    primaryBtnText = "Entrar"
+    secondaryBtnText = "Cadastrar"
+    (submit)="submit()"
+    (navigate)="navigate()"
+>
+    <form [formGroup]="loginForm">
+        <app-primary-input
+            formControlName="email"
+            inputName="email"
+            type="email"
+            label="Email ou CPF"
+            placeholder="maringa@email.com"
+        >
+        </app-primary-input>
+
+        <app-primary-input
+        formControlName="password"
+        inputName="password"
+        type="password"
+        label="Sua Senha"
+        >
+    </app-primary-input>
+    <span>Esqueceu sua senha ?</span>
+        
+    </form>
+</app-default-login-layout>

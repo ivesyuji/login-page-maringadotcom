@@ -1,0 +1,111 @@
+@use "../../../styles/variables.scss" as *;
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    section {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-section{
+        flex-grow: 0.3;
+        padding: 0 35px;
+
+        img{
+            margin-bottom: 30px;
+
+        }
+
+    }
+    .btn-service-wrapper {
+        display: flex; 
+        justify-content: center; 
+        gap: 33px;
+
+        button{
+            margin-bottom: 30px;
+            border: none;
+            width: 65px; /* Define a largura do botão */
+            height: 65px; /* Define a altura do botão */
+            cursor: pointer; /* Garante que o cursor seja um ponteiro */
+
+        }
+
+    }
+    
+
+
+    .btn-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+
+        .divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+
+            font-size: 12px;
+            color: $gray-bg;
+            font-weight: 400;
+            text-transform: uppercase;
+
+            div{
+                flex-grow: 1;
+                height: 2px;
+                background-color: $gray-bg;
+            }
+
+        }
+
+        button{
+            width: 100%;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            border: none;
+            background: transparent;
+            padding: 12px 24px;
+            cursor: pointer;
+
+        &.btn-primary{
+            background-color: $primary-color;
+            color: white;
+        }
+
+        &.btn-secondary{
+            border: 1px solid $primary-color;
+            color: $primary-color;
+            }
+        }  
+    }
+
+    .main-section {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        img {
+            width: 100vw;           // Largura total da viewport
+            height: 100vh;          // Altura total da viewport
+            max-width: 100%;        // Garante que não ultrapasse a largura
+            max-height: 100%;       // Garante que não ultrapasse a altura
+            object-fit: cover;      // Faz a imagem cobrir toda a área sem distorcer
+            object-position: center; // Centraliza a imagem
+        }
+    }
+}
+
