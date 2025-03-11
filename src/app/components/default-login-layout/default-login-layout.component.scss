@@ -24,23 +24,6 @@ main {
         }
 
     }
-    .btn-service-wrapper {
-        display: flex; 
-        justify-content: center; 
-        gap: 33px;
-
-        button{
-            margin-bottom: 30px;
-            border: none;
-            width: 65px; /* Define a largura do botão */
-            height: 65px; /* Define a altura do botão */
-            cursor: pointer; /* Garante que o cursor seja um ponteiro */
-
-        }
-
-    }
-    
-
 
     .btn-wrapper{
         display: flex;
