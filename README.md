@@ -1,7 +1,9 @@
 # LoginPage
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
-Figma: https://www.figma.com/design/GH2nfn02lWuiDFuArlo0lB/maringadotcom?node-id=0-1&p=f&t=AAr3i6gkTBdF7kqo-0
+
+# Figma File
+https://www.figma.com/design/GH2nfn02lWuiDFuArlo0lB/maringadotcom?node-id=0-1&p=f&t=AAr3i6gkTBdF7kqo-0
 
 ## Development server
 
